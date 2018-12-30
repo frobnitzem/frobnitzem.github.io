@@ -1,9 +1,22 @@
+# Site settings
 title: frobnitzem.github.io
-url: "https://frobnitzem.github.io"
-theme: jekyll-theme-minimal
+email: predictivestatmech@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Massively Parallel Computational Mathematical Maniacal
+  Theoretical GeoBioPhysicalIconoclasticEconoChemist.
+github_username: frobnitzem
 
-gems:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-mentions
+# Gems settings
+plugins:
+ - jekyll-paginate
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-mentions
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+paginate: 5

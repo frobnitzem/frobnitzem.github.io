@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="container" style="text-align:center">
+    <div class="navbar" style="margin-bottom:0;border:0">
+    <ul class="navbar-nav nav header-nav">
+      {% for item in site.data.navigation %}
+      <li> <a href="{{ item.link }}"
+          {% if page.url == item.link %}class="button nav-button active"
+          {% else %}class="button nav-button"{% endif %}>
+        {{ item.name }}
+      </a> </li>
+      {% endfor %}
+    </ul>
+    </div>
+  </div>
+</header>
+<div class="clearfix">
