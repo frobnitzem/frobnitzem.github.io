@@ -1,0 +1,9 @@
+- name: Blog
+  link: /
+- name: About
+  link: /about.html
+- name: Academic
+  link: https://predictivestatmech.org
+- name: Parallel Science
+  link: https://parallelscience.com
+
