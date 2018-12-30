@@ -5,7 +5,7 @@
     border-top: 5px solid $brand-color;
     border-bottom: 1px solid $brand-color;
     min-height: 56px;
-    background-color: white;
+    background-color: #1a1a1a;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -96,7 +96,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $brand-color;
     padding: $spacing-unit 0;
     background-color: #1a1a1a;
 }

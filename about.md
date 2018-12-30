@@ -1,9 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Meet the Developers
 ---
-# About page
 
 David M. Rogers works at the nexus of
 Chemistry, Physics, Mathematics, and Computer Science.
