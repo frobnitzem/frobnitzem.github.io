@@ -1,0 +1,9 @@
+title: frobnitzem.github.io
+url: "https://frobnitzem.github.io"
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-mentions
