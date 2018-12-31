@@ -1,0 +1,24 @@
+<!-- http://doswa.com/2011/07/20/mathjax-in-markdown.html
+     Insert math by typing, for example \`\\\( \\del \\cdot \\vec{B} = 0 \\\)\`.
+
+     This could potentially cause issues if
+     the sequences \\\(, \\\[, or $$ appear in a normal (non-math) code block.
+-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+<script>
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<style>
+    code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+</style>

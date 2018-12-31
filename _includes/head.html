@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="{{ '/static/bootstrap.min.css' }}">
   <link rel="stylesheet" href="{{ '/static/font-awesome-4.6.3/css/font-awesome.min.css' }}">
   <script src="{{ '/static/bootstrap.min.js' }}"></script>
+  {% include mathjax.html %}
   <!-- should put bootstrap before main style sheet, otherwise it's hard to override  -->
   <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
