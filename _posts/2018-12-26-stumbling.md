@@ -28,8 +28,7 @@ returns on the S&P500 index look like a Lévy distribution,
 
 This is the symmetric version of the general 'Stable' Lévy
 distribution implemented in [scipy][stable].
-Kleinert uses the alternate notation, \\\(\\sigma^\\lambda/2 = c^\\lambda\\\),
-but the 'width' of the distribution actually scales as \\\(1/c\\\).
+Kleinert uses the alternate notation, \\\(\\sigma^\\lambda/2 = c^\\lambda\\\).
 
 It's called stable because the characteristic function
 is obviously \\\( H(p) \\\), and adding random variables
